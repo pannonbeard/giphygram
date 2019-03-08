@@ -47,7 +47,7 @@ function update() {
                 // Add Giphy HTML
                 $('#giphys').prepend(
                     '<div class="col-sm-6 col-md-4 col-lg-3 p-1">' +
-                        '<img class="w-100 img-fluid" src="' + giphy.images.downsized_large.url + '">' +
+                        '<img class="w-100 img-fluid" src="' + giphy.images.downsized_large.url + '" alt="">' +
                     '</div>'
                 );
             });
